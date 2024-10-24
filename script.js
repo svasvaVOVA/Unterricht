@@ -25,52 +25,77 @@
 
 
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-const personalMovieDB = {
-	count: numberOfFilms,
-	movies: {},
-	actors: {},
-	genres: [],
-	privat: false
+// const personalMovieDB = {
+// 	count: numberOfFilms,
+// 	movies: {},
+// 	actors: {},
+// 	genres: [],
+// 	privat: false
 
-};
+// };
 
-const a = prompt('Один из последних просмотренных фильмов?'),
-  b = prompt('На сколько оцените его?'),
-  c = prompt('Один из последних просмотренных фильмов?'),
-  d = prompt('На сколько оцените его?');
+// const a = prompt('Один из последних просмотренных фильмов?'),
+//   b = prompt('На сколько оцените его?'),
+//   c = prompt('Один из последних просмотренных фильмов?'),
+//   d = prompt('На сколько оцените его?');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
 
-console.log(numberOfFilms);
-console.log(personalMovieDB);
+// console.log(numberOfFilms);
+// console.log(personalMovieDB);
 
-const num = 50;
-if (num < 49) {
-	 console.log('error');
+// const num = 50;
+// if (num < 49) {
+// 	 console.log('error');
 	 
-} else if (num > 100) {
-	console.log('error');
-} else if (num == 50) {
-	console.log('ok');
-} else {
-	console.log('error');
- }
+// } else if (num > 100) {
+// 	console.log('error');
+// } else if (num == 50) {
+// 	console.log('ok');
+// } else {
+// 	console.log('error');
+//  }
 
 
-switch (num) {
-	case 49:
-		console.log('error');
-		break;
-	case 50:
-		console.log('ok');
-		break;
-	default:
-		console.log('drugoe');
-		break
- }
+// switch (num) {
+// 	case 49:
+// 		console.log('error');
+// 		break;
+// 	case 50:
+// 		console.log('ok');
+// 		break;
+// 	default:
+// 		console.log('drugoe');
+// 		break
+//  }
 
 
+// цикл while
+
+let num = 50;
+while (num <= 55) {
+	console.log(num);
+	num++;
+}
+// ========================
+do {
+	console.log(num);
+	num++;
+}
+while (num < 55);
+// ==============================
+
+
+for (let i = 1; i <= 10; i++){
+	if (i === 6) {
+		// break;
+		continue;
+	}
+	console.log(i);
+	
+}
+// ===============================
