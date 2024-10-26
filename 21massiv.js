@@ -11,7 +11,7 @@ for (let i = 0; i < arr.length; i++){
 
 for (let val of arr) {
 	console.log(val);
-cont
+
 	
 }
 
@@ -29,3 +29,5 @@ function com(a, b) {
 	return a - b;
 }
 console.log(product);
+
+
