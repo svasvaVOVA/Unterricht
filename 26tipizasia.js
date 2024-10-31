@@ -1,4 +1,4 @@
-'uese strict'
+'use strict'
 
 // перевод значений ы строку
 
@@ -26,7 +26,7 @@ console.log(typeof (parseInt('15', 10)));
 
 // let a = + prompt("2");
 // ===============================================================================
-// To boolean  folss = 0, '', null, undefined, NaN;
+// To boolean  false = 0, '', null, undefined, NaN;
 // true  все остальные
 
 let sW = null; //null  это ничего
