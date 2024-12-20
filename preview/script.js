@@ -17,13 +17,13 @@ const change = document.querySelector('#color');
 if (localStorage.getItem('isChecked', true)) {
 	checkbox.checked = true;
 }
-
+	if (localStorage.getItem('bg') === 'changed') {
+      form.style.backgroundColor = 'red';
+    } 
 checkbox.addEventListener('change', () => {
 	localStorage.setItem('isChecked', true);
 
-		if (localStorage.getItem('bg') === 'changed') {
-      form.style.backgroundColor = 'red';
-    } 
+	
 });
 
 change.addEventListener('click', () => {
